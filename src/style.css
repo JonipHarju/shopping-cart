@@ -4,27 +4,9 @@ body {
   margin: 0;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  min-height: 7vh;
-  background-color: rgb(76, 176, 215);
-  color: white;
-  list-style: none;
-}
-
-.navLinks {
-  width: 50%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  list-style: none;
-}
-
-.shopAndCartContainer {
-  width: 80vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.link {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-color: none;
+  font-size: 3rem;
 }

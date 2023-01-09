@@ -1,0 +1,34 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 7vh;
+  background-color: rgb(76, 176, 215);
+  color: white;
+  list-style: none;
+}
+
+.navLinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.shopAndCartContainer {
+  width: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart {
+  font-size: 1.5rem;
+}
+#cartInfo1 {
+  padding: 10px;
+}
+#cartInfo2 {
+  padding: 10px;
+}

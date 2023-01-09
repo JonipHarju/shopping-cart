@@ -1,0 +1,22 @@
+#shopWindow {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#itemSection {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  background-color: rgb(20, 34, 80);
+  border: 10px solid rgb(10, 3, 53);
+}
